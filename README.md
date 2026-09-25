@@ -17,8 +17,15 @@ Ampliación de **5 GB** de almacenamiento en `/home`
 ### Entorno de Escritorio MATE
 **Instalación y configuración del entorno gráfico MATE**
 
-<br><br>
+<br>
 
+<br>
+
+### 03
+### GRUPO
+**GRUPO 2**
+
+<br><br>
 ---
 
 ###  👩🏻‍💻 Daniela Cristina Moran Delgado
