@@ -30,8 +30,6 @@ Creación y configuración de una máquina virtual Linux, incorporando un segund
 
 Durante la práctica se verificó la estructura de almacenamiento antes y después de la ampliación, permitiendo comprobar la correcta incorporación del nuevo espacio al volumen lógico.
 
-➡️ **./Trabajo-1/README.md**
-
 ---
 
 ### 🐧 Trabajo 2 | Instalación de Arch Linux con LVM y entorno MATE
@@ -41,8 +39,6 @@ Instalación y configuración de **Arch Linux** en una máquina virtual, utiliza
 La práctica comprende la preparación y particionamiento del disco, creación y configuración de volúmenes lógicos, instalación del sistema base, configuración del arranque mediante **GRUB en UEFI**, configuración de red con **NetworkManager**, creación de usuarios e instalación del entorno gráfico **MATE con LightDM**.
 
 Finalmente, se realizaron verificaciones del sistema, almacenamiento, puntos de montaje, volúmenes lógicos, usuarios y servicios para comprobar el correcto funcionamiento de la instalación.
-
-➡️ **./Trabajo-2/README.md**
 
 ---
 
