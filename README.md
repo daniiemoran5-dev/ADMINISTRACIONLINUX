@@ -4,13 +4,6 @@
 
 ### Curso Práctico
 
-<br>
-
-![Linux](https://img.shields.io/badge/Linux-Administration-FCC624?-the-badge&logo=linux&logoColor=black
-![Bash](https://img.shields.io/badge/Bash-Terminal-4EAA=for-the-badge&logo=gnubash&logoColor=white
-
-<br><br>
-
 ## 💻 PRÁCTICAS DESARROLLADAS
 
 ### 01
