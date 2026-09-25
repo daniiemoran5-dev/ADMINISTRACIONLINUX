@@ -360,3 +360,7 @@ lvs
 ## Resultado
 
 La práctica permitió completar la instalación de **Arch Linux**, estructurar el almacenamiento mediante **LVM**, configurar el entorno gráfico **MATE** y ampliar posteriormente el volumen lógico destinado a `/home` mediante la incorporación de un segundo disco virtual.
+
+##Evidencia
+<img width="1305" height="871" alt="image" src="https://github.com/user-attachments/assets/5ebbd14a-099a-4778-9567-baba634f787b" />
+
