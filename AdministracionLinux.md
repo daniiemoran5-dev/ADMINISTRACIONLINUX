@@ -17,7 +17,7 @@ servicio="sshd"
 #Generacion del archivo de reporte
 reporte="reporte_sistema.txt"
 
-#----VALIDACIOONES DEL DIRECTORIO REEECIBIDO---------------------------------
+#----VALIDACIONES DEL DIRECTORIO RECIBIDO---------------------------------
 #Sentencia IF  para que valide que el directorio ingresado exista
 #Caso contrario se informa el error y el script finaliza controladamente
 if [ ! -d "$directorio" ]; then
