@@ -8,9 +8,8 @@
 
 <br>
 
-### Diego Armando Canchignia Teran
-
 ### Daniela Cristina Morán Delgado
+### Diego Armando Canchignia Teran
 
 </div>
 
@@ -18,31 +17,33 @@
 
 ## 📖 Descripción
 
-Este repositorio contiene los trabajos prácticos desarrollados durante el curso de **Administración de Linux**, orientados a la configuración de máquinas virtuales, administración de almacenamiento mediante **LVM** e instalación y configuración de sistemas GNU/Linux.
+Este repositorio contiene los trabajos prácticos desarrollados durante el curso de **Administración de Linux**, orientados a la configuración y administración de sistemas Linux en entornos virtualizados.
+
+Las prácticas realizadas permitieron aplicar conocimientos relacionados con la gestión de almacenamiento mediante **LVM**, ampliación de volúmenes lógicos e instalación y configuración de **Arch Linux** con entorno gráfico **MATE**.
 
 ---
 
-## 📂 Trabajos realizados
+## 💾 Trabajo 1 | Ampliación de almacenamiento en `/home`
 
-### 💾 Trabajo 1 | Ampliación de almacenamiento en `/home`
+En esta práctica se realizó la configuración de una máquina virtual Linux y la administración de su almacenamiento mediante **LVM (Logical Volume Manager)**.
 
-Creación y configuración de una máquina virtual Linux, incorporando un segundo disco virtual para realizar la **ampliación de 5 GB del espacio de almacenamiento asignado al directorio `/home` mediante LVM**.
+Como parte del trabajo, se incorporó un nuevo disco virtual de **5 GB** y se amplió el volumen lógico correspondiente al directorio `/home`, redimensionando posteriormente el sistema de archivos para utilizar el nuevo espacio disponible.
 
-Durante la práctica se verificó la estructura de almacenamiento antes y después de la ampliación, permitiendo comprobar la correcta incorporación del nuevo espacio al volumen lógico.
-
----
-
-### 🐧 Trabajo 2 | Instalación de Arch Linux con LVM y entorno MATE
-
-Instalación y configuración de **Arch Linux** en una máquina virtual, utilizando **LVM (Logical Volume Manager)** para la administración del almacenamiento y **MATE** como entorno gráfico de escritorio.
-
-La práctica comprende la preparación y particionamiento del disco, creación y configuración de volúmenes lógicos, instalación del sistema base, configuración del arranque mediante **GRUB en UEFI**, configuración de red con **NetworkManager**, creación de usuarios e instalación del entorno gráfico **MATE con LightDM**.
-
-Finalmente, se realizaron verificaciones del sistema, almacenamiento, puntos de montaje, volúmenes lógicos, usuarios y servicios para comprobar el correcto funcionamiento de la instalación.
+La práctica permitió verificar el almacenamiento antes y después de la ampliación y comprobar la correcta incorporación del nuevo espacio al sistema.
 
 ---
 
-## 🛠️ Tecnologías y herramientas
+## 🐧 Trabajo 2 | Instalación de Arch Linux con LVM y MATE
+
+En esta práctica se realizó la instalación y configuración de **Arch Linux** en una máquina virtual, utilizando **LVM** para la administración del almacenamiento y **MATE** como entorno gráfico de escritorio.
+
+El proceso contempló el particionamiento del disco, configuración de volúmenes lógicos, instalación del sistema base, configuración del arranque mediante **GRUB en UEFI**, creación de usuarios y habilitación de la conectividad mediante **NetworkManager**.
+
+Posteriormente, se realizó la instalación y configuración del entorno gráfico **MATE** junto con **LightDM**, finalizando con las respectivas verificaciones del sistema, almacenamiento, puntos de montaje, volúmenes lógicos, usuarios y servicios.
+
+---
+
+## 🛠️ Tecnologías y herramientas utilizadas
 
 <div align="center">
 
@@ -56,7 +57,7 @@ Finalmente, se realizaron verificaciones del sistema, almacenamiento, puntos de 
 
 ---
 
-## 📁 Estructura del repositorio
+## 📁 Contenido del repositorio
 
 ```text
 Administracion-Linux/
@@ -64,9 +65,8 @@ Administracion-Linux/
 ├── README.md
 │
 ├── Trabajo-1/
-│   ├── README.md
-│   └── evidencias/
+│   └── Evidencias y documentación
 │
 └── Trabajo-2/
-    ├── README.md
-    └── evidencias/
+    └── Evidencias y documentación
+``
