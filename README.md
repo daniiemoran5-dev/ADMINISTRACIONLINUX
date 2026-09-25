@@ -22,8 +22,7 @@ Ampliación de **5 GB** de almacenamiento en `/home`
 <br>
 
 ### 03
-### GRUPO
-**GRUPO 2**
+### GRUPO 1
 
 <br><br>
 ---
