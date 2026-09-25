@@ -94,10 +94,3 @@ fi
 
 #---VISOR DEL REPORTE EN TERMINAL-----------------------------------------
 cat "$reporte"
-
-<img width="1305" height="871" alt="image" src="https://github.com/user-attachments/assets/7cd88abb-0e57-48b9-80bc-136f6ec18e79" />
-
-
-
-
-
