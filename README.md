@@ -8,8 +8,8 @@
 
 <br>
 
-**Diego Armando Canchignia Teran**
-**Daniela Cristina Moran Delgado**
+### Diego Armando Canchignia Teran
+### Daniela Cristina Moran Delgado
 
 </div>
 
@@ -17,14 +17,14 @@
 
 ## 📖 Descripción
 
-Este repositorio contiene los trabajos prácticos desarrollados durante el curso de **Administración de Linux**, orientados a la creación y configuración de máquinas virtuales, administración de almacenamiento mediante **LVM** e instalación y configuración de **Arch Linux** con entorno gráfico **MATE**.
+Este repositorio contiene los trabajos prácticos desarrollados durante el curso de **Administración de Linux**, orientados a la configuración de máquinas virtuales, administración de almacenamiento mediante **LVM** e instalación y configuración de sistemas GNU/Linux.
 
 ---
 
 ## 📂 Trabajos realizados
 
-### 💾 Trabajo 1 | Administración de almacenamiento con LVM
+### 💾 Trabajo 1 | Ampliación de almacenamiento en `/home`
 
-Creación y configuración de una máquina virtual Linux, aplicando la administración de almacenamiento mediante **LVM (Logical Volume Manager)**.
+Creación y configuración de una máquina virtual Linux, incorporando un segundo disco virtual para realizar la **ampliación de 5 GB del espacio de almacenamiento asignado al directorio `/home` mediante LVM**.
 
-Como parte de la práctica se realizó la incorporación de un segundo disco virtual y la **ampliación de 5 GB del espacio de almacenamiento destinado
+Durante la práctica se verificó la estructura de almacenamiento antes y después de la ampliación, 
