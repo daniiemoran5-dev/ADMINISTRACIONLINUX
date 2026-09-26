@@ -8,7 +8,7 @@
 
 Script desarrollado en **Bash** para realizar verificaciones básicas del estado de un sistema Linux. Permite analizar el uso de almacenamiento de un directorio, comprobar la memoria disponible y verificar el estado del servicio SSH.
 
-Al finalizar la ejecución, genera un archivo denominado `reporte_sistema.txt` con los resultados obtenidos durante el monitoreo.
+Al finalizar la ejecución, el script genera un archivo denominado `reporte_sistema.txt` con los resultados obtenidos durante el monitoreo.
 
 ---
 
@@ -109,7 +109,7 @@ fi
 
 
 # --- GENERACION DEL REPORTE ---------------------------------------------
-# El contenido generado se guarda en reporte_sistema.txt.
+# El contenido generado se almacena en reporte_sistema.txt.
 
 {
     echo "============================================"
@@ -118,4 +118,65 @@ fi
     echo "Fecha:                 $fecha"
     echo "Equipo:                $equipo"
     echo "Directorio analizado:  $directorio"
-    echo "Tiempo UPTIME:         $tiempo_
+    echo "Tiempo UPTIME:         $tiempo_actividad"
+    echo "Uso Almacenamiento ($directorio): ${uso_disco}% - $estado_disco"
+    echo "Uso de memoria:        ${memoria_disponible} MiB - $estado_memoria"
+    echo "Servicio $servicio:    $estado_servicio"
+    echo "--------------------------------------------"
+    echo "RESULTADO GENERAL:     $estado_general"
+    echo "============================================"
+
+} > "$reporte"
+
+
+# --- VISOR DEL REPORTE EN TERMINAL --------------------------------------
+
+cat "$reporte"
+```
+
+---
+
+## 📄 Reporte generado
+
+Al finalizar la ejecución, el script genera automáticamente el archivo:
+
+```text
+reporte_sistema.txt
+```
+
+El reporte contiene información sobre:
+
+- 📅 Fecha y hora de ejecución
+- 🖥️ Nombre del equipo
+- 📂 Directorio analizado
+- ⏱️ Tiempo de actividad del sistema
+- 💾 Uso de almacenamiento
+- 🧠 Memoria disponible
+- 🔐 Estado del servicio SSH
+- ✅ Resultado general del monitoreo
+
+---
+
+## 📊 Ejemplo de salida
+
+```text
+============================================
+       REPORTE DE MONITOREO DEL SISTEMA
+============================================
+Fecha:                 2026-09-25 18:10:25
+Equipo:                servidor-linux
+Directorio analizado:  /
+Tiempo UPTIME:         up 2 hours, 15 minutes
+Uso Almacenamiento (/): 42% - OK
+Uso de memoria:        3250 MiB - OK
+Servicio sshd:         SERVICIO ACTIVO - OK
+--------------------------------------------
+RESULTADO GENERAL:     SIN ERRORES
+============================================
+```
+
+---
+
+## ✅ Resultado
+
+El script permite realizar una verificación básica del estado del sistema Linux mediante la consulta del almacenamiento, memoria disponible y disponibilidad del servicio SSH. Los resultados obtenidos son consolidados en el archivo `reporte_sistema.txt`, facilitando la revisión del estado general del sistema y la identificación de posibles alertas.
